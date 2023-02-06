@@ -1,0 +1,36 @@
+<html>
+
+<head>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
+</head>
+
+<body>
+	
+	<div class="container">
+	
+		<h1 id="title">Tensorflow MNIST	</h1>
+	
+		<a class="btn btn-black" id="btnClearCanvas"> Clear Canvas</a>
+		<!-- <a class="btn btn-black" id="btnHideGrid"> Grid</a> -->
+		
+		<a class="btn btn-gray" id="btnFullScreen"> FS</a>
+		<space></space>
+		<canvas id="draw"></canvas>
+		<space></space>
+		<a class="btn btn-block" id="btnPredict"> Predict</a>
+
+
+		<p id="output">Draw a single digit on the black canvas</p>
+		<p style="color:#AAA">
+			<small>Version-1.2, todo: normalize canvas image, keep aspect ration and add margin to match the MNIST dataset</small>
+		</p>
+	
+		<!-- <space></space>
+	  <a class="btn btn-block" href="#">Predict</a> -->
+	</div>
+
+	<script src="src/index.ts"></script>
+</body>
+
+</html>

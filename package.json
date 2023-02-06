@@ -1,0 +1,23 @@
+{
+  "name": "tensorflow-mnist",
+  "version": "1.0.0",
+  "description": "Draw canvas to predict the number",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "0.13.1",
+    "@types/jquery": "3.3.10",
+    "@types/screenfull": "3.3.2",
+    "jquery": "3.3.1",
+    "screenfull": "3.3.3"
+  },
+  "devDependencies": {
+    "@types/jquery": "3.3.10",
+    "@types/screenfull": "3.3.2",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
